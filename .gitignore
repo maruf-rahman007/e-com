@@ -1,0 +1,15 @@
+# Internal planning & design docs — not for public repo
+doc/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker volumes created locally
+postgres-data/
