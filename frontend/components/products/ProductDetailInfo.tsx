@@ -12,13 +12,13 @@ export default function ProductDetailInfo({ product }: Props) {
     <div className="flex flex-col gap-5">
       {/* Category */}
       {product.category && (
-        <span className="inline-block text-xs font-semibold text-blue-600 uppercase tracking-widest">
+        <span className="inline-block text-xs font-semibold text-white uppercase tracking-widest">
           {product.category.name}
         </span>
       )}
 
       {/* Title */}
-      <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 leading-tight">
+      <h1 className="text-2xl sm:text-3xl font-bold text-white leading-tight">
         {product.title}
       </h1>
 
@@ -35,7 +35,7 @@ export default function ProductDetailInfo({ product }: Props) {
               }`}
             />
           ))}
-          <span className="text-sm text-gray-600 ml-1">{product.rating.toFixed(1)}</span>
+          <span className="text-sm text-white ml-1">{product.rating.toFixed(1)}</span>
         </div>
 
         <div className="flex items-center gap-1 text-sm">
@@ -60,14 +60,14 @@ export default function ProductDetailInfo({ product }: Props) {
 
       {/* Price */}
       <div className="flex items-baseline gap-2">
-        <span className="text-3xl font-bold text-gray-900">{formatPrice(product.price)}</span>
+        <span className="text-3xl font-bold text-white">{formatPrice(product.price)}</span>
       </div>
 
       {/* Description */}
       {product.description && (
         <div>
           <h2 className="text-sm font-semibold text-gray-700 mb-1.5">Description</h2>
-          <p className="text-sm text-gray-600 leading-relaxed">{product.description}</p>
+          <p className="text-sm text-white leading-relaxed">{product.description}</p>
         </div>
       )}
 

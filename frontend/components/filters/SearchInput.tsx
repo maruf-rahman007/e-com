@@ -31,7 +31,7 @@ export default function SearchInput({ value, onChange }: Props) {
         value={local}
         onChange={(e) => handleChange(e.target.value)}
         placeholder="Search products…"
-        className="w-full pl-9 pr-8 py-2 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white"
+        className="w-full pl-9 pr-8 py-2 text-sm text-black border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white"
       />
       {local && (
         <button

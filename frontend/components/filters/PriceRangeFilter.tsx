@@ -42,7 +42,7 @@ export default function PriceRangeFilter({ minPrice, maxPrice, onMinChange, onMa
           value={localMin}
           onChange={(e) => handleMin(e.target.value)}
           placeholder="Min"
-          className="w-full py-1.5 px-2 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+          className="w-full py-1.5 px-2 text-sm text-black border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
         />
         <span className="text-gray-400 text-sm shrink-0">–</span>
         <input
@@ -51,7 +51,7 @@ export default function PriceRangeFilter({ minPrice, maxPrice, onMinChange, onMa
           value={localMax}
           onChange={(e) => handleMax(e.target.value)}
           placeholder="Max"
-          className="w-full py-1.5 px-2 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+          className="w-full py-1.5 px-2 text-sm text-black border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
         />
       </div>
     </div>

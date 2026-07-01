@@ -19,7 +19,7 @@ app.use(
 
 app.use(express.json());
 
-app.get("/health", (_req, res) => {
+app.get("/health", (req, res) => {
   res.json({ status: "ok" });
 });
 
